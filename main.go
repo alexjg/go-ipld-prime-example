@@ -110,7 +110,6 @@ const (
 
 type eventNodeBuilder struct {
 	state      builderState
-	currentKey *string
 	name       *string
 	previous   *cid.Cid
 }
